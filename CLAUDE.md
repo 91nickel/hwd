@@ -58,17 +58,12 @@ Update it whenever a new module or lecture starts.
 If the user provides a task with no lecture number — assign it to the lecture listed in `CURRENT.md`.
 
 ## inbox.txt — task intake
-When the user says to process inbox.txt, spawn a subagent with this exact prompt
-(rules are embedded — do NOT tell the subagent to read CLAUDE.md):
-
----
-Root: D:\projects\hwd-python
-
+When the user says to process inbox.txt:
 1. Read CURRENT.md → get {module} folder and current lecture number.
 2. Read inbox.txt → get task text and number (if given).
    If no number: check tasks/{module}/ for existing tasks, increment the last one.
-3. Determine slug: transliterate the task title to lowercase-kebab-case (Russian→latin).
-4. Create D:\projects\hwd-python\{module}\tasks\{NN.M.K-slug}\task.md:
+3. Slug: transliterate the task title to lowercase-kebab-case (Russian→latin).
+4. Create {module}\tasks\{NN.M.K-slug}\task.md:
    # Задание NN.M.K — Title
    {task text verbatim}
 5. Create solution.py in the same folder: one line only: # NN.M.K — Title
@@ -78,8 +73,6 @@ Root: D:\projects\hwd-python
    - [NN.M.K] Title — one-line essence → {module}/tasks/NN.M.K-slug/
 8. Overwrite inbox.txt with empty string.
 9. git add, commit "Add task NN.M.K — Title", push to master.
-Reply ONE line: "Задание NN.M.K сохранено → path"
----
 
 ## Workflow (after every lecture or task)
 0. Every lecture note ends with a "Задания" section linking its related tasks.
