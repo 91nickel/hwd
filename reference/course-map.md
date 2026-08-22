@@ -9,6 +9,10 @@ Format:
 
 ---
 
-## Module — (none yet)
+## Module 13 — Python для самых маленьких хардкорщиков → `13-python-hardcore/`
 
-_No modules added yet. First module folder is created when the user sends the first material._
+### Lectures
+_none yet_
+
+### Tasks
+_none yet_
