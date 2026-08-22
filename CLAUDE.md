@@ -52,6 +52,16 @@ formats them for easy reading.
   problem-specific, no direction toward a solution.
 - Only after the user submits their own solution do we format and save it.
 
+## inbox.txt — low-context task intake
+When the user drops a file named `inbox.txt` in the project root, Claude MUST:
+1. Spawn a subagent (not read the file directly) with this instruction:
+   "Read inbox.txt, format its content as a course task per CLAUDE.md rules
+   (task.md + solution.py stub, update README and course-map, commit and push),
+   then delete inbox.txt. Reply in ONE line: 'Задание NN.N сохранено → path'."
+2. Pass the subagent the full path to CLAUDE.md so it can read the rules itself.
+3. Tell the subagent to reply as briefly as possible (one line).
+This keeps the task text out of the main context window.
+
 ## Workflow (after every lecture or task)
 0. Every lecture note ends with a "Задания" section linking its related tasks.
 1. Format the material (конспект / task.md / solution.py).
