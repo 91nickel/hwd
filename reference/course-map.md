@@ -19,6 +19,7 @@ Format:
 - [13.2.1] Три программиста — логика: определить язык каждого из трёх программистов по двум условиям → `13-python-hardcore/tasks/13.2.1-tri-programmista/`
 - [13.2.2] Программисты: утверждение — логика: верно ли что Иннокентий пишет не на Python, если он пишет на TypeScript → `13-python-hardcore/tasks/13.2.2-programmisty-utverzdenie/`
 - [13.2.3] Программисты: утверждение 2 — логика: верно ли что Пётр Иваныч пишет не на TypeScript и не на Rust, используя два условия → `13-python-hardcore/tasks/13.2.3-programmisty-utverzdenie-2/`
+- [13.2.4] Программисты: утверждение 3 — логика: верно ли что Пётр Иваныч пишет на Python или на TypeScript, используя два условия → `13-python-hardcore/tasks/13.2.4-programmisty-utverzdenie-3/`
 
 ---
 
