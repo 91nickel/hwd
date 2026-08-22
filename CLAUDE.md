@@ -7,7 +7,9 @@ formats them for easy reading.
 ## Structure
 - Root: `CLAUDE.md`, `README.md`, `reference/`, one folder per module.
 - Module folder `NN-name/` (NN = course number):
-  - `README.md` — human-facing (Russian): table of contents + description
+  - `README.md` — human-facing (Russian): table of contents + description.
+    Lecture table columns: № | Тема | О чём (1-line summary) | Конспект (link).
+    Task table columns: № | Задание | О чём (1-line summary) | Условие | Решение.
   - `reference/` — reference docs Claude needs (English)
   - `NN-*.md` — lecture notes / конспекты. Each lecture note MUST end with a
     "Задания" section linking to the related tasks in `tasks/`.
