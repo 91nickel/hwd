@@ -53,11 +53,9 @@ formats them for easy reading.
 - Only after the user submits their own solution do we format and save it.
 
 ## Current module tracking
-`inbox.txt` always has two comment lines at the top:
-  # Текущий модуль: NN-name
-  # Текущий урок: NN.M
-Update these lines whenever a new module or lecture starts.
-If the user provides a task with no lecture number — assign it to the current lecture listed there.
+`CURRENT.md` in the project root always states the active module and lecture.
+Update it whenever a new module or lecture starts.
+If the user provides a task with no lecture number — assign it to the lecture listed in `CURRENT.md`.
 
 ## inbox.txt — low-context task intake
 When the user drops a file named `inbox.txt` in the project root, Claude MUST:
