@@ -33,8 +33,8 @@ formats them for easy reading.
   a whole, grouped by topic.
 - **Lecture-level** (`## Литература` section in the конспект): add only books
   explicitly referenced in that specific lecture. Always look up exact titles first.
-- Never duplicate: if a book is already in `bibliography.md`, the lecture section
-  may simply reference it by author+short title without a full entry.
+- Duplication is fine: if a book appears in a lecture's `## Литература`, add it
+  to `bibliography.md` as well — the full list should be complete.
 
 ## Language rules
 - `CLAUDE.md` and any reference/doc files Claude needs: **English**.
