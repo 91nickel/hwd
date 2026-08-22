@@ -17,6 +17,7 @@ Format:
 
 ### Tasks
 - [13.2.1] Три программиста — логика: определить язык каждого из трёх программистов по двум условиям → `13-python-hardcore/tasks/13.2.1-tri-programmista/`
+- [13.2.2] Программисты: утверждение — логика: верно ли что Иннокентий пишет не на Python, если он пишет на TypeScript → `13-python-hardcore/tasks/13.2.2-programmisty-utverzdenie/`
 
 ---
 

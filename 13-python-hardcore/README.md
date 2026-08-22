@@ -14,6 +14,7 @@
 | № | Задание | Условие | Решение |
 |---|---------|---------|---------|
 | 13.2.1 | Три программиста | [task.md](tasks/13.2.1-tri-programmista/task.md) | [solution.py](tasks/13.2.1-tri-programmista/solution.py) |
+| 13.2.2 | Программисты: утверждение | [task.md](tasks/13.2.2-programmisty-utverzdenie/task.md) | [solution.py](tasks/13.2.2-programmisty-utverzdenie/solution.py) |
 
 ## Литература
 
