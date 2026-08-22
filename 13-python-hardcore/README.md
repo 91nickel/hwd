@@ -19,6 +19,7 @@
 | 13.2.4 | Программисты: утверждение 3 | [task.md](tasks/13.2.4-programmisty-utverzdenie-3/task.md) | [solution.py](tasks/13.2.4-programmisty-utverzdenie-3/solution.py) |
 | 13.2.5 | Программисты: утверждение 4 | [task.md](tasks/13.2.5-programmisty-utverzdenie-4/task.md) | [solution.py](tasks/13.2.5-programmisty-utverzdenie-4/solution.py) |
 | 13.2.6 | День недели через 18 дней | [task.md](tasks/13.2.6-den-nedeli-cherez-18-dnej/task.md) | [solution.py](tasks/13.2.6-den-nedeli-cherez-18-dnej/solution.py) |
+| 13.2.7 | Разница возрастов | [task.md](tasks/13.2.7-raznica-vozrastov/task.md) | [solution.py](tasks/13.2.7-raznica-vozrastov/solution.py) |
 
 ## Литература
 
