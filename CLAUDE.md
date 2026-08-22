@@ -9,7 +9,8 @@ formats them for easy reading.
 - Module folder `NN-name/` (NN = course number):
   - `README.md` — human-facing (Russian): table of contents + description
   - `reference/` — reference docs Claude needs (English)
-  - `NN-*.md` — lecture notes / конспекты
+  - `NN-*.md` — lecture notes / конспекты. Each lecture note MUST end with a
+    "Задания" section linking to the related tasks in `tasks/`.
   - `tasks/NN-name/` — one folder per task: `task.md` (condition) + `solution.py`
 - `reference/course-map.md` — global quick-search index of all modules,
   lectures and tasks (one-line essence each). Update it constantly.
@@ -31,6 +32,7 @@ formats them for easy reading.
 - Only after the user submits their own solution do we format and save it.
 
 ## Workflow (after every lecture or task)
+0. Every lecture note ends with a "Задания" section linking its related tasks.
 1. Format the material (конспект / task.md / solution.py).
 2. Update the module `README.md`.
 3. Update `reference/course-map.md`.
