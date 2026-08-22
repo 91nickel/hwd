@@ -17,6 +17,7 @@
 | 13.2.2 | Программисты: утверждение | [task.md](tasks/13.2.2-programmisty-utverzdenie/task.md) | [solution.py](tasks/13.2.2-programmisty-utverzdenie/solution.py) |
 | 13.2.3 | Программисты: утверждение 2 | [task.md](tasks/13.2.3-programmisty-utverzdenie-2/task.md) | [solution.py](tasks/13.2.3-programmisty-utverzdenie-2/solution.py) |
 | 13.2.4 | Программисты: утверждение 3 | [task.md](tasks/13.2.4-programmisty-utverzdenie-3/task.md) | [solution.py](tasks/13.2.4-programmisty-utverzdenie-3/solution.py) |
+| 13.2.5 | Программисты: утверждение 4 | [task.md](tasks/13.2.5-programmisty-utverzdenie-4/task.md) | [solution.py](tasks/13.2.5-programmisty-utverzdenie-4/solution.py) |
 
 ## Литература
 
