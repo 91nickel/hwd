@@ -21,6 +21,7 @@ Format:
 - [13.2.3] Программисты: утверждение 2 — логика: верно ли что Пётр Иваныч пишет не на TypeScript и не на Rust, используя два условия → `13-python-hardcore/tasks/13.2.3-programmisty-utverzdenie-2/`
 - [13.2.4] Программисты: утверждение 3 — логика: верно ли что Пётр Иваныч пишет на Python или на TypeScript, используя два условия → `13-python-hardcore/tasks/13.2.4-programmisty-utverzdenie-3/`
 - [13.2.5] Программисты: утверждение 4 — логика: верно ли что Пётр Иваныч пишет на Python и на TypeScript одновременно, нарушая условие уникальности языков → `13-python-hardcore/tasks/13.2.5-programmisty-utverzdenie-4/`
+- [13.2.6] День недели через 18 дней — арифметика: пятница + 18 дней = вторник → `13-python-hardcore/tasks/13.2.6-den-nedeli-cherez-18-dnej/`
 
 ---
 
