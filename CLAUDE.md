@@ -9,7 +9,7 @@ formats them for easy reading.
 - Module folder `NN-name/` (NN = course number):
   - `README.md` — human-facing (Russian): table of contents + description.
     Lecture table columns: № | Тема (linked to the .md file) | О чём (1-line summary).
-    Task table columns: № | Задание | О чём (1-line summary) | Условие | Решение.
+    Task table columns: № | Задание | Условие | Решение.
   - `reference/` — reference docs Claude needs (English)
   - `NN-*.md` — lecture notes / конспекты. Each lecture note ends with:
     1. "Примеры" section — table linking to `examples/NN.M/` scripts (if any).
@@ -57,15 +57,29 @@ formats them for easy reading.
 Update it whenever a new module or lecture starts.
 If the user provides a task with no lecture number — assign it to the lecture listed in `CURRENT.md`.
 
-## inbox.txt — low-context task intake
-When the user drops a file named `inbox.txt` in the project root, Claude MUST:
-1. Spawn a subagent (not read the file directly) with this instruction:
-   "Read inbox.txt, format its content as a course task per CLAUDE.md rules
-   (task.md + solution.py stub, update README and course-map, commit and push),
-   then clear inbox.txt (overwrite with empty content). Reply in ONE line: 'Задание NN.N сохранено → path'."
-2. Pass the subagent the full path to CLAUDE.md so it can read the rules itself.
-3. Tell the subagent to reply as briefly as possible (one line).
-This keeps the task text out of the main context window.
+## inbox.txt — task intake
+When the user says to process inbox.txt, spawn a subagent with this exact prompt
+(rules are embedded — do NOT tell the subagent to read CLAUDE.md):
+
+---
+Root: D:\projects\hwd-python
+
+1. Read CURRENT.md → get {module} folder and current lecture number.
+2. Read inbox.txt → get task text and number (if given).
+   If no number: check tasks/{module}/ for existing tasks, increment the last one.
+3. Determine slug: transliterate the task title to lowercase-kebab-case (Russian→latin).
+4. Create D:\projects\hwd-python\{module}\tasks\{NN.M.K-slug}\task.md:
+   # Задание NN.M.K — Title
+   {task text verbatim}
+5. Create solution.py in the same folder: one line only: # NN.M.K — Title
+6. Append to {module}\README.md Задания table:
+   | NN.M.K | Title | [task.md](tasks/NN.M.K-slug/task.md) | [solution.py](tasks/NN.M.K-slug/solution.py) |
+7. Append to reference\course-map.md under Tasks:
+   - [NN.M.K] Title — one-line essence → {module}/tasks/NN.M.K-slug/
+8. Overwrite inbox.txt with empty string.
+9. git add, commit "Add task NN.M.K — Title", push to master.
+Reply ONE line: "Задание NN.M.K сохранено → path"
+---
 
 ## Workflow (after every lecture or task)
 0. Every lecture note ends with a "Задания" section linking its related tasks.
