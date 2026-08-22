@@ -11,8 +11,9 @@ formats them for easy reading.
     Lecture table columns: № | Тема (linked to the .md file) | О чём (1-line summary).
     Task table columns: № | Задание | О чём (1-line summary) | Условие | Решение.
   - `reference/` — reference docs Claude needs (English)
-  - `NN-*.md` — lecture notes / конспекты. Each lecture note MUST end with a
-    "Задания" section linking to the related tasks in `tasks/`.
+  - `NN-*.md` — lecture notes / конспекты. Each lecture note ends with:
+    1. "Примеры" section — table linking to `examples/NN.M/` scripts (if any).
+    2. "Задания" section — links to related tasks in `tasks/`.
   - `tasks/NN-name/` — one folder per task: `task.md` (condition) + `solution.py`
   - `examples/NN.M/` — runnable code examples from lecture NN.M, one file per
     example, named `NN-short-name.py`. Strip Colab magic (`!pip install …`)

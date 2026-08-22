@@ -9,22 +9,6 @@
 | 13.1 | [С места в карьер](13.1-s-mesta-v-karer.md) | 9 демо что умеет Python: лица, QR, маршруты, TTS, PDF, арт, МКС, пароли |
 | 13.2 | [Математика для инженера-разработчика](13.2-matematika-dlya-inzhenera.md) | Формальная логика: 4 закона, связь с ООП/LSP, нечёткая логика и диалектика |
 
-## Примеры к лекциям
-
-### 13.1 — С места в карьер
-
-| № | Файл | Что делает |
-|---|------|-----------|
-| 1 | [01-face-detection.py](examples/13.1/01-face-detection.py) | Детекция лиц на фото через Haar-каскад |
-| 2 | [02-qr-code.py](examples/13.1/02-qr-code.py) | Генерация QR-кода из зашифрованного сообщения |
-| 3 | [03-route-map.py](examples/13.1/03-route-map.py) | Маршрут между адресами на интерактивной карте |
-| 4 | [04-tts.py](examples/13.1/04-tts.py) | Озвучка текста через Google TTS |
-| 5 | [05-pdf-text.py](examples/13.1/05-pdf-text.py) | Извлечение текста из PDF |
-| 6 | [06-generative-art.py](examples/13.1/06-generative-art.py) | Генеративное искусство (Мондриан) |
-| 7 | [07-snowflakes.py](examples/13.1/07-snowflakes.py) | Анимация снежинок в терминале |
-| 8 | [08-iss-data.py](examples/13.1/08-iss-data.py) | Позиция МКС и экипаж через API |
-| 9 | [09-password-check.py](examples/13.1/09-password-check.py) | Проверка пароля на утечку (k-Anonymity) |
-
 ## Задания
 
 | № | Задание | Условие | Решение |
