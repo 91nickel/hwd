@@ -12,7 +12,7 @@ Format:
 ## Module 13 — Python для самых маленьких хардкорщиков → `13-python-hardcore/`
 
 ### Lectures
-_none yet_
+- [13.1] С места в карьер — 9 демо: детекция лиц, QR-код, маршрут, TTS, PDF→текст, арт, снежинки, МКС, pwned-пароль → `13-python-hardcore/13.1-s-mesta-v-karer.md`
 
 ### Tasks
 _none yet_
