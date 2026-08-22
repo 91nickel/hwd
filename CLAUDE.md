@@ -57,7 +57,7 @@ When the user drops a file named `inbox.txt` in the project root, Claude MUST:
 1. Spawn a subagent (not read the file directly) with this instruction:
    "Read inbox.txt, format its content as a course task per CLAUDE.md rules
    (task.md + solution.py stub, update README and course-map, commit and push),
-   then delete inbox.txt. Reply in ONE line: 'Задание NN.N сохранено → path'."
+   then clear inbox.txt (overwrite with empty content). Reply in ONE line: 'Задание NN.N сохранено → path'."
 2. Pass the subagent the full path to CLAUDE.md so it can read the rules itself.
 3. Tell the subagent to reply as briefly as possible (one line).
 This keeps the task text out of the main context window.
