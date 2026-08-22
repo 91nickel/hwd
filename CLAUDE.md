@@ -20,8 +20,21 @@ formats them for easy reading.
     and replace with a comment `# pip install …` at the top of the file.
     For examples that render inline (folium maps), save to a file instead
     (e.g. `m.save("route.html")`).
+  - `bibliography.md` — module-level book list (Russian). Two sections:
+    main Python textbooks and topic-specific books (math, algorithms, etc.).
+    Table columns: Автор | Название | Изд. | Примечание.
+    README.md links to it with a one-liner "Полный список — [bibliography.md]".
 - `reference/course-map.md` — global quick-search index of all modules,
   lectures and tasks (one-line essence each). Update it constantly.
+
+## Bibliography rules
+- **Before adding a book**: look up the exact title and author spelling via web search.
+- **Module-level** (`bibliography.md`): add any book recommended for the module as
+  a whole, grouped by topic.
+- **Lecture-level** (`## Литература` section in the конспект): add only books
+  explicitly referenced in that specific lecture. Always look up exact titles first.
+- Never duplicate: if a book is already in `bibliography.md`, the lecture section
+  may simply reference it by author+short title without a full entry.
 
 ## Language rules
 - `CLAUDE.md` and any reference/doc files Claude needs: **English**.
