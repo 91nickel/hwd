@@ -14,6 +14,11 @@ formats them for easy reading.
   - `NN-*.md` — lecture notes / конспекты. Each lecture note MUST end with a
     "Задания" section linking to the related tasks in `tasks/`.
   - `tasks/NN-name/` — one folder per task: `task.md` (condition) + `solution.py`
+  - `examples/NN.M/` — runnable code examples from lecture NN.M, one file per
+    example, named `NN-short-name.py`. Strip Colab magic (`!pip install …`)
+    and replace with a comment `# pip install …` at the top of the file.
+    For examples that render inline (folium maps), save to a file instead
+    (e.g. `m.save("route.html")`).
 - `reference/course-map.md` — global quick-search index of all modules,
   lectures and tasks (one-line essence each). Update it constantly.
 
