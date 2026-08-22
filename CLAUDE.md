@@ -52,6 +52,13 @@ formats them for easy reading.
   problem-specific, no direction toward a solution.
 - Only after the user submits their own solution do we format and save it.
 
+## Current module tracking
+`inbox.txt` always has two comment lines at the top:
+  # Текущий модуль: NN-name
+  # Текущий урок: NN.M
+Update these lines whenever a new module or lecture starts.
+If the user provides a task with no lecture number — assign it to the current lecture listed there.
+
 ## inbox.txt — low-context task intake
 When the user drops a file named `inbox.txt` in the project root, Claude MUST:
 1. Spawn a subagent (not read the file directly) with this instruction:
