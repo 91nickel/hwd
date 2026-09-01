@@ -13,6 +13,7 @@
 | 13.5 | Как изучается язык программирования | — | — |
 | 13.6 | [Установка Python, первая программа](13.6-ustanovka-python-pervaya-programma.md) | Онлайн-сервисы, uv, hello world, запуск .py файла | — |
 | 13.7 | [В какой программе пишутся программы](13.7-v-kakoy-programme-pishetsya-programmy.md) | Опрос StackOverflow: VS Code, PyCharm, Notepad++, Sublime Text, vim/nvim | — |
+| 13.8 | [Настройка редактора кода](13.8-nastrojka-redaktora-koda.md) | Создание файла и открытие VS Code из консоли, запуск через uv run | — |
 
 ## Литература
 
