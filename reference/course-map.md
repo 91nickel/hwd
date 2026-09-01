@@ -18,6 +18,7 @@ Format:
 - [13.4] Почему Python? — TIOBE-рейтинг №1, применение вне IT (врач-УЗИ на Habr), название от шоу Monty Python → `13-python-hardcore/13.4-pochemu-python.md`
 - [13.5] Как изучается язык программирования — без контента
 - [13.6] Установка Python, первая программа — онлайн-сервисы, uv, hello world, запуск через интерпретатор и uv run → `13-python-hardcore/13.6-ustanovka-python-pervaya-programma.md`
+- [13.7] В какой программе пишутся программы — опрос StackOverflow: VS Code, PyCharm, Notepad++, Sublime Text, vim/nvim → `13-python-hardcore/13.7-v-kakoy-programme-pishetsya-programmy.md`
 
 ### Tasks
 - [13.2.1] Три программиста — логика: определить язык каждого из трёх программистов по двум условиям → `13-python-hardcore/tasks/13.2/13.2.1-tri-programmista.md`
