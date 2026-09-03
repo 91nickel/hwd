@@ -15,7 +15,7 @@
 | 13.7 | [В какой программе пишутся программы](13.7-v-kakoy-programme-pishetsya-programmy.md) | Опрос StackOverflow: VS Code, PyCharm, Notepad++, Sublime Text, vim/nvim | — |
 | 13.8 | [Настройка редактора кода](13.8-nastrojka-redaktora-koda.md) | Создание файла и открытие VS Code из консоли, запуск через uv run | — |
 | 13.9 | [План изучения любого языка программирования](13.9-plan-izucheniya-yazyka-programmirovaniya.md) | — | — |
-| 13.10 | [Переменные](13.10-peremennye.md) | Присваивание, snake_case, динамическая типизация, комментарии | — |
+| 13.10 | [Переменные](13.10-peremennye.md) | Присваивание, snake_case, динамическая типизация, комментарии | [задания](tasks/13.10/) |
 
 ## Литература
 

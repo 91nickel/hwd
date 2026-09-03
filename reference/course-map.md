@@ -23,6 +23,9 @@ Format:
 - [13.9] План изучения любого языка программирования — без контента
 - [13.10] Переменные — присваивание, snake_case, динамическая типизация, комментарии → `13-python-hardcore/13.10-peremennye.md`
 
+### Tasks 13.10
+- [13.10.1–12] Переменные: print, end, some_magic, PEP8, url, days, index, user_id → `13-python-hardcore/tasks/13.10/README.md`
+
 ### Tasks
 - [13.2.1] Три программиста — логика: определить язык каждого из трёх программистов по двум условиям → `13-python-hardcore/tasks/13.2/13.2.1-tri-programmista.md`
 - [13.2.2] Программисты: утверждение — логика: верно ли что Иннокентий пишет не на Python, если он пишет на TypeScript → `13-python-hardcore/tasks/13.2/13.2.2-programmisty-utverzdenie.md`
