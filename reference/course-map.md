@@ -22,6 +22,7 @@ Format:
 - [13.8] Настройка редактора кода — создание файла и открытие VS Code из консоли, запуск через uv run → `13-python-hardcore/13.8-nastrojka-redaktora-koda.md`
 - [13.9] План изучения любого языка программирования — без контента
 - [13.10] Переменные — присваивание, snake_case, динамическая типизация, комментарии → `13-python-hardcore/13.10-peremennye.md`
+- [13.11] Ввод данных пользователем — input(), конкатенация строк, sys.argv → `13-python-hardcore/13.11-vvod-dannyh-polzovatelem.md`
 
 ### Tasks 13.10
 - [13.10.1–12] Переменные: print, end, some_magic, PEP8, url, days, index, user_id → `13-python-hardcore/tasks/13.10/README.md`
