@@ -17,6 +17,7 @@
 | 13.9 | [План изучения любого языка программирования](13.9-plan-izucheniya-yazyka-programmirovaniya.md) | — | — |
 | 13.10 | [Переменные](13.10-peremennye.md) | Присваивание, snake_case, динамическая типизация, комментарии | [задания](tasks/13.10/) |
 | 13.11 | [Ввод данных пользователем](13.11-vvod-dannyh-polzovatelem.md) | input(), конкатенация строк, sys.argv | [задания](tasks/13.11/) |
+| 13.12 | [Числовые типы данных, арифметика](13.12-chislovye-tipy-dannyh-arifmetika.md) | int, float, type(), %, **, //, round, +=, -= | — |
 
 ## Литература
 

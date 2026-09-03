@@ -23,6 +23,7 @@ Format:
 - [13.9] План изучения любого языка программирования — без контента
 - [13.10] Переменные — присваивание, snake_case, динамическая типизация, комментарии → `13-python-hardcore/13.10-peremennye.md`
 - [13.11] Ввод данных пользователем — input(), конкатенация строк, sys.argv → `13-python-hardcore/13.11-vvod-dannyh-polzovatelem.md`
+- [13.12] Числовые типы данных, арифметика — int, float, type(), %, **, //, round, +=, -= → `13-python-hardcore/13.12-chislovye-tipy-dannyh-arifmetika.md`
 
 ### Tasks 13.11
 - [13.11.1] Привет, имя! Твой любимый цвет — input() для имени и цвета, f-строка для вывода → `13-python-hardcore/tasks/13.11/`
