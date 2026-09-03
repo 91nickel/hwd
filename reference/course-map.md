@@ -20,6 +20,7 @@ Format:
 - [13.6] Установка Python, первая программа — онлайн-сервисы, uv, hello world, запуск через интерпретатор и uv run → `13-python-hardcore/13.6-ustanovka-python-pervaya-programma.md`
 - [13.7] В какой программе пишутся программы — опрос StackOverflow: VS Code, PyCharm, Notepad++, Sublime Text, vim/nvim → `13-python-hardcore/13.7-v-kakoy-programme-pishetsya-programmy.md`
 - [13.8] Настройка редактора кода — создание файла и открытие VS Code из консоли, запуск через uv run → `13-python-hardcore/13.8-nastrojka-redaktora-koda.md`
+- [13.9] План изучения любого языка программирования — без контента
 
 ### Tasks
 - [13.2.1] Три программиста — логика: определить язык каждого из трёх программистов по двум условиям → `13-python-hardcore/tasks/13.2/13.2.1-tri-programmista.md`
