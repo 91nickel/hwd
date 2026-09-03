@@ -25,6 +25,9 @@ Format:
 - [13.11] Ввод данных пользователем — input(), конкатенация строк, sys.argv → `13-python-hardcore/13.11-vvod-dannyh-polzovatelem.md`
 - [13.12] Числовые типы данных, арифметика — int, float, type(), %, **, //, round, +=, -= → `13-python-hardcore/13.12-chislovye-tipy-dannyh-arifmetika.md`
 
+### Tasks 13.12
+- [13.12.1–6] Арифметика: умножение, опечатка в переменной, +=/-=, type(), сумма сторон → `13-python-hardcore/tasks/13.12/README.md`
+
 ### Tasks 13.11
 - [13.11.1] Привет, имя! Твой любимый цвет — input() для имени и цвета, f-строка для вывода → `13-python-hardcore/tasks/13.11/`
 
