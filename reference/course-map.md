@@ -28,6 +28,10 @@ Format:
 - [13.14] 🔥ПРОГРАММУЛЬКАЕМ! Первая настоящая программа — input() возвращает str, int() приводит к числу, вложенный вызов int(input()) → `13-python-hardcore/13.14-programmulkaem-pervaya-programma.md`
 - [13.15] Нецелые числа — float неточен в двоичном представлении; decimal.Decimal и fractions.Fraction для точных вычислений → `13-python-hardcore/13.15-netsely-chisla.md`
 
+### Tasks 13.15
+- [13.15.1] Число в куб — Decimal из sys.argv, возведение в куб → `13-python-hardcore/tasks/13.15/`
+- [13.15.2] Сумма трёх чисел — map(Decimal, sys.argv[1:]), sum() → `13-python-hardcore/tasks/13.15/`
+
 ### Tasks 13.14
 - [13.14.1–9] sys.argv, int(input()), арифметика: куб, сумма, периметр, цифры числа, температура, возраст, страниц в день → `13-python-hardcore/tasks/13.14/README.md`
 
