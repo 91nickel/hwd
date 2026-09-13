@@ -28,6 +28,8 @@ Format:
 - [13.14] 🔥ПРОГРАММУЛЬКАЕМ! Первая настоящая программа — input() возвращает str, int() приводит к числу, вложенный вызов int(input()) → `13-python-hardcore/13.14-programmulkaem-pervaya-programma.md`
 - [13.15] Нецелые числа — float неточен в двоичном представлении; decimal.Decimal и fractions.Fraction для точных вычислений → `13-python-hardcore/13.15-netsely-chisla.md`
 - [13.16] 🔥ПРОГРАММУЛЬКАЕМ! Расчёт обоев — Decimal + math.ceil/floor: три версии программы расчёта рулонов обоев → `13-python-hardcore/13.16-programmulkaem-raschet-oboev.md`
+- [13.17] Почему мы пишем консольные программы? — консоль — учебный формат; Calibre — пример GUI-программы на Python → `13-python-hardcore/13.17-pochemu-my-pishem-konsolnye-programmy.md`
+- [13.18] Строки — виды кавычек, экранирование, многострочные строки, \n, перенос через \ и скобки, конкатенация → `13-python-hardcore/13.18-stroki.md`
 
 ### Tasks 13.15
 - [13.15.1] Число в куб — Decimal из sys.argv, возведение в куб → `13-python-hardcore/tasks/13.15/`
