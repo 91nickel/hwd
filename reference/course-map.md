@@ -32,6 +32,10 @@ Format:
 - [13.18] Строки — виды кавычек, экранирование, многострочные строки, \n, перенос через \ и скобки, конкатенация → `13-python-hardcore/13.18-stroki.md`
 - [13.19] Специальные последовательности в строках — \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX → `13-python-hardcore/13.19-spetsialnye-posledovatelnosti.md`
 
+### Tasks 13.19
+- [13.19.1] O'Connor без одинарной кавычки — Unicode-эскейп ' вместо символа ' → `13-python-hardcore/tasks/13.19/README.md`
+- [13.19.2] Три ракеты — четыре способа: copy-paste, \U0001F680, \N{ROCKET}, chr(0x1F680); и с умножением строки → `13-python-hardcore/tasks/13.19/README.md`
+
 ### Tasks 13.18
 - [13.18.1–17] Кавычки: одинарные/двойные/тройные, экранирование апострофа и двойной кавычки, печать """/''', Дзен Python, эхо ввода, многострочные строки → `13-python-hardcore/tasks/13.18/README.md`
 
