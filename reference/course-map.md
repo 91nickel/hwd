@@ -30,6 +30,7 @@ Format:
 - [13.16] 🔥ПРОГРАММУЛЬКАЕМ! Расчёт обоев — Decimal + math.ceil/floor: три версии программы расчёта рулонов обоев → `13-python-hardcore/13.16-programmulkaem-raschet-oboev.md`
 - [13.17] Почему мы пишем консольные программы? — консоль — учебный формат; Calibre — пример GUI-программы на Python → `13-python-hardcore/13.17-pochemu-my-pishem-konsolnye-programmy.md`
 - [13.18] Строки — виды кавычек, экранирование, многострочные строки, \n, перенос через \ и скобки, конкатенация → `13-python-hardcore/13.18-stroki.md`
+- [13.19] Специальные последовательности в строках — \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX → `13-python-hardcore/13.19-spetsialnye-posledovatelnosti.md`
 
 ### Tasks 13.18
 - [13.18.1–17] Кавычки: одинарные/двойные/тройные, экранирование апострофа и двойной кавычки, печать """/''', Дзен Python, эхо ввода, многострочные строки → `13-python-hardcore/tasks/13.18/README.md`
