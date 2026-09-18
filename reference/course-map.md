@@ -31,6 +31,7 @@ Format:
 - [13.17] Почему мы пишем консольные программы? — консоль — учебный формат; Calibre — пример GUI-программы на Python → `13-python-hardcore/13.17-pochemu-my-pishem-konsolnye-programmy.md`
 - [13.18] Строки — виды кавычек, экранирование, многострочные строки, \n, перенос через \ и скобки, конкатенация → `13-python-hardcore/13.18-stroki.md`
 - [13.19] Специальные последовательности в строках — \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX → `13-python-hardcore/13.19-spetsialnye-posledovatelnosti.md`
+- [13.20] Что можно делать со строками — replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum → `13-python-hardcore/13.20-chto-mozhno-delat-so-strokami.md`
 
 ### Tasks 13.19
 - [13.19.1] O'Connor без одинарной кавычки — Unicode-эскейп ' вместо символа ' → `13-python-hardcore/tasks/13.19/README.md`

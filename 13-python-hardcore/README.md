@@ -25,6 +25,7 @@
 | 13.17 | [Почему мы пишем консольные программы?](13.17-pochemu-my-pishem-konsolnye-programmy.md) | Консоль — учебный формат; Calibre как пример GUI-программы на Python | — |
 | 13.18 | [Строки](13.18-stroki.md) | Виды кавычек, экранирование, многострочные строки, \n, перенос через \ и скобки, конкатенация | [задания](tasks/13.18/) |
 | 13.19 | [Специальные последовательности в строках](13.19-spetsialnye-posledovatelnosti.md) | \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX | [задания](tasks/13.19/) |
+| 13.20 | [Что можно делать со строками](13.20-chto-mozhno-delat-so-strokami.md) | replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum | [задания](tasks/13.20/) |
 
 ## Литература
 
