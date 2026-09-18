@@ -33,6 +33,9 @@ Format:
 - [13.19] Специальные последовательности в строках — \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX → `13-python-hardcore/13.19-spetsialnye-posledovatelnosti.md`
 - [13.20] Что можно делать со строками — replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum → `13-python-hardcore/13.20-chto-mozhno-delat-so-strokami.md`
 
+### Tasks 13.20
+- [13.20.1–11] upper+!, первый символ×10, len, символ[4]×5, [-1], последний символ×len, find "x" (True/False), find "x" (TRUE/FALSE), find/rfind точки, strip в «кавычках» → `13-python-hardcore/tasks/13.20/README.md`
+
 ### Tasks 13.19
 - [13.19.1] O'Connor без одинарной кавычки — Unicode-эскейп ' вместо символа ' → `13-python-hardcore/tasks/13.19/README.md`
 - [13.19.2] Три ракеты — четыре способа: copy-paste, \U0001F680, \N{ROCKET}, chr(0x1F680); и с умножением строки → `13-python-hardcore/tasks/13.19/README.md`
