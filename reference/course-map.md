@@ -33,6 +33,8 @@ Format:
 - [13.19] Специальные последовательности в строках — \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX → `13-python-hardcore/13.19-spetsialnye-posledovatelnosti.md`
 - [13.20] Что можно делать со строками — replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum → `13-python-hardcore/13.20-chto-mozhno-delat-so-strokami.md`
 
+- [13.21] Форматирование строк — % (старый стиль), .format(), f-строки: выражения, числа, выравнивание, !r, {переменная=} → `13-python-hardcore/13.21-formatirovanie-strok.md`
+
 ### Tasks 13.20
 - [13.20.1–11] upper+!, первый символ×10, len, символ[4]×5, [-1], последний символ×len, find "x" (True/False), find "x" (TRUE/FALSE), find/rfind точки, strip в «кавычках» → `13-python-hardcore/tasks/13.20/README.md`
 
