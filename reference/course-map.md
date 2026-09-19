@@ -35,6 +35,9 @@ Format:
 
 - [13.21] Форматирование строк — % (старый стиль), .format(), f-строки: выражения, числа, выравнивание, !r, {переменная=} → `13-python-hardcore/13.21-formatirovanie-strok.md`
 
+### Tasks 13.21
+- [13.21.1–10] f-строки и .format(): кавычки, два слова, повтор, именованные/позиционные параметры, переменные для f/выражения, парсинг key=value, фамилия+инициал, center → `13-python-hardcore/tasks/13.21/README.md`
+
 ### Tasks 13.20
 - [13.20.1–11] upper+!, первый символ×10, len, символ[4]×5, [-1], последний символ×len, find "x" (True/False), find "x" (TRUE/FALSE), find/rfind точки, strip в «кавычках» → `13-python-hardcore/tasks/13.20/README.md`
 
