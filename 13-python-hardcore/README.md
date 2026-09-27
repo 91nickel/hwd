@@ -27,6 +27,7 @@
 | 13.19 | [Специальные последовательности в строках](13.19-spetsialnye-posledovatelnosti.md) | \n, \t, \\, raw-строки r"...", Unicode \uXXXX и \UXXXXXXXX | [задания](tasks/13.19/) |
 | 13.20 | [Что можно делать со строками](13.20-chto-mozhno-delat-so-strokami.md) | replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum | [задания](tasks/13.20/) |
 | 13.21 | [Форматирование строк](13.21-formatirovanie-strok.md) | % (старый стиль), .format(), f-строки: выражения, форматирование чисел, выравнивание, !r, {переменная=} | [задания](tasks/13.21/) |
+| 13.22 | [🔥ПРОГРАММУЛЬКАЕМ. Улучшаем расчёт обоев](13.22-programmulkaem-uluchaem-raschet-oboev.md) | Срез с шагом −1 (переворот), перемножение цифр, ввод с запятой `.replace(",", ".")`, `.strip()`, вывод f-строкой | — |
 
 ## Литература
 

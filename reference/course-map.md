@@ -34,6 +34,7 @@ Format:
 - [13.20] Что можно делать со строками — replace, +, *, in, lower/upper, strip, find, индексы, срезы, len, str/int/float, islower/isupper/isalnum → `13-python-hardcore/13.20-chto-mozhno-delat-so-strokami.md`
 
 - [13.21] Форматирование строк — % (старый стиль), .format(), f-строки: выражения, числа, выравнивание, !r, {переменная=} → `13-python-hardcore/13.21-formatirovanie-strok.md`
+- [13.22] 🔥ПРОГРАММУЛЬКАЕМ! Улучшаем расчёт обоев — срез [::-1], перемножение цифр (срез/цикл), ввод с запятой .replace(",", "."), .strip(), вывод f-строкой → `13-python-hardcore/13.22-programmulkaem-uluchaem-raschet-oboev.md`
 
 ### Tasks 13.21
 - [13.21.1–15] f-строки и .format(): кавычки, два слова, повтор, именованные/позиционные параметры, переменные для f/выражения, парсинг key=value, фамилия+инициал, center, маскировка email, форматирование секунд MM:SS.cc, переформатирование даты YYYY-MM-DD→DD.MM.YYYY, маскировка карты, удаление первых/последних N символов → `13-python-hardcore/tasks/13.21/README.md`
