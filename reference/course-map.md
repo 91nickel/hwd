@@ -38,6 +38,7 @@ Format:
 - [13.23] Булевы — тип bool: True/False, операторы сравнения, = vs ==, in/isdigit(), приставки is_/can_/has_, bool(), «Угадай число», двойное сравнение, таблица истинности → `13-python-hardcore/13.23-bulevy.md`
 - [13.24] None — специальное значение «ничего»/«пусто», аналог null из SQL; тип NoneType, единственный объект None, bool(None) → False → `13-python-hardcore/13.24-none.md`
 - [13.25] Преобразования типов — явное int()/float()/str()/bool(), неявное преобразование int+float→float, int() обрезает дробную часть, bool(): 0/""/[]/None→False, ложные значения, калькулятор суммы, ошибки и лишние преобразования → `13-python-hardcore/13.25-preobrazovanie-tipov.md`
+- [13.26] Ветвление логики, булевские операции, дебаггер — if/else/elif, отступы (пасхалка `from __future__ import braces`), and/or/not, ложные значения (0/""/[]/None), проверка пароля, калькулятор доставки, чётность (%), дебаггер VS Code, частые ошибки → `13-python-hardcore/13.26-vetvlenie-logiki-debugger.md`
 
 ### Tasks 13.25
 - [13.25.1–7] Преобразования типов и sys.argv: сумма двух целых, стоимость price×qty с Decimal (2 знака), секунды в M:SS, возраст ≥18 (True/False), карточка user (name/admin/age/adult), повтор слова n раз, исправление сравнения a > b с Decimal → `13-python-hardcore/tasks/13.25/README.md`
